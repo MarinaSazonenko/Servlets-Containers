@@ -1,0 +1,8 @@
+<servlet>
+    <servlet-name>PostServlet</servlet-name>
+    <servlet-class>servlet.PostServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>PostServlet</servlet-name>
+    <url-pattern>/api/posts/*</url-pattern>
+</servlet-mapping>
